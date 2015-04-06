@@ -47,3 +47,8 @@ mysql_users:
     pass: pass
     priv: "*.*:ALL"                     # optional, defaults to "*.*:ALL"
     host: "%" 
+mysql_users:
+  - name: viv1
+    pass: pass
+    priv: "*.*:ALL"                     # optional, defaults to "*.*:ALL"
+    host: "%"
