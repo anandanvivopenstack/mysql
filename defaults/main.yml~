@@ -1,5 +1,5 @@
 # file: mysql/defaults/main.yml
-
+#1234
 # Basic settings
 mysql_port: 3306
 mysql_bind_address: "0.0.0.0"
@@ -47,3 +47,8 @@ mysql_users:
     pass: pass
     priv: "*.*:ALL"                     # optional, defaults to "*.*:ALL"
     host: "%" 
+mysql_users:
+  - name: viv1
+    pass: pass
+    priv: "*.*:ALL"                     # optional, defaults to "*.*:ALL"
+    host: "%"
